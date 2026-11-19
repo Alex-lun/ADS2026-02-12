@@ -122,7 +122,6 @@ public class MyHashSet<E> implements Set<E> {
         size = 0;
     }
 
-    // Формат как у стандартных коллекций: [a, b, c]
     @Override
     public String toString() {
         String result = "[";
